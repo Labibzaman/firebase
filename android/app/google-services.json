@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457237820315",
+    "project_id": "fir-counter-597e0",
+    "storage_bucket": "fir-counter-597e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457237820315:android:48719f8c65ebb47832a73e",
+        "android_client_info": {
+          "package_name": "com.example.firebase_counter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDytPDSK__LIAyxv6365cMH5uE7C9iXQEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
