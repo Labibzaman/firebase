@@ -18,18 +18,18 @@ class _MatchDisplayState extends State<MatchDisplay> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Match Display'),
+        title:  Text('${widget.Match.match}'),
       ),
       body: Center(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
 
           children: [
-            Text('Match: ${widget.Match.match}'),
-            Text('Team A: ${widget.Match.team_a} - ${widget.Match.team_a_score}'),
-            Text('Team B: ${widget.Match.team_b} - ${widget.Match.team_b_score}'),
-            Text('Time: ${widget.Match.time}'),
-            Text('Total Time: ${widget.Match.totaltime}'),
+            Text('${widget.Match.match}',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 24,color: Colors.grey),),
+
+            Text('${widget.Match.team_a_score} : ${widget.Match.team_b_score}',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 24,),),
+            Text('Time: ${widget.Match.time}',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,),),
+            Text('Total Time: ${widget.Match.totaltime}',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 16,),),
           ],
         ),
       ),
